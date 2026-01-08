@@ -39,6 +39,6 @@ Provisioned a Linux web server using a Kickstart file to automate OS installatio
    -Server provisioned without manual intervention
 
 ## What I Learned
-  -Benefits of automated OS provisioning
-  -How Kickstart improves consistency and speed in server deployments
-  -Importance of validating services post-provisioning
+-Benefits of automated OS provisioning
+-How Kickstart improves consistency and speed in server deployments
+-Importance of validating services post-provisioning
