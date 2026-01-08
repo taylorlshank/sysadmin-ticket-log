@@ -28,3 +28,5 @@ A curated portfolio of real-world Linux system administration and infrastructure
 ### 🔐 Security & Reliability
 - SSH Hardening on Linux Systems
 - Linux Security Audit
+
+➡️ Detailed ticket write-ups are available in the `/tickets` folder.
