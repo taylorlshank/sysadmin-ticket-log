@@ -12,9 +12,20 @@ A curated portfolio of real-world Linux system administration and infrastructure
 - Infrastructure documentation & security awareness
 
 ## Featured Tickets
-| Ticket | Title | Category |
-|------:|-------|----------|
-| TS5-1 | Deploy CentOS 9 VM on vSphere | Virtualization |
-| TS5-17 | Patch Dev Servers Using Ansible | Automation |
+## Portfolio Categories
 
-➡️ Full documentation is available in the `/tickets` folder.
+### 🖥️ Virtualization & Provisioning
+- TS5-1 – Deploy CentOS 9 VM on vSphere
+- TS5-21 – Provision Web Server via Kickstart
+
+### ⚙️ Automation & Configuration Management
+- TS5-17 – Patch Dev Servers Using Ansible
+- TS5-50 – Ansible Task Creation
+- TS5-51 – Port Hardening via Ansible
+
+### 🌐 Linux Services & Infrastructure
+- LAMP Stack Deployment (Apache, MariaDB, Firewall)
+
+### 🔐 Security & Reliability
+- SSH Hardening on Linux Systems
+- Linux Security Audit
