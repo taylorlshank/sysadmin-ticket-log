@@ -11,7 +11,6 @@ A curated portfolio of real-world Linux system administration and infrastructure
 - Server patching & troubleshooting
 - Infrastructure documentation & security awareness
 
-## Featured Tickets
 ## Portfolio Categories
 
 ### 🖥️ Virtualization & Provisioning
