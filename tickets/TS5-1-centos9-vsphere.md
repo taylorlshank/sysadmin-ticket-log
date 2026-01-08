@@ -40,12 +40,19 @@ Provisioned a new CentOS Stream 9 virtual machine in a VMware vSphere environmen
    hostnamectl set-hostname dev-app-ts5.procore.prod1
 8. Added VM details to AssetTiger inventory
 9. Validation
-  -VM powered on successfully in vSphere
-  -Operationg system installed without errors
-  -Hostname verified:
-     hostnamectl
+  - VM powered on successfully in vSphere
+  - Operationg system installed without errors
+  - Hostname verified:
+      hostnamectl
+### Screenshots
+
+![Datastore selection in vSphere] (../assets/screenshots/TS5-1/vm-datastore-selection.png)
+
+![VM hardware configuration] (../assets/screenshots/TS5-1/vm-hardware-config.png)
+
+![Hostname verification after install] (../assets/screenshots/TS5-1/hostname-verified.png)
 
 ## What I Learned
-  -End-to-end VM provisioning in an enterprise virtualization environment
-  -Importance of naming conventions and inventory management
-  -Benefits of thin provisioning in shared storage systems
+  - End-to-end VM provisioning in an enterprise virtualization environment
+  - Importance of naming conventions and inventory management
+  - Benefits of thin provisioning in shared storage systems
