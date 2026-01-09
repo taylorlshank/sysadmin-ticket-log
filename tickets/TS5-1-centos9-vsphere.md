@@ -46,11 +46,12 @@ Provisioned a new CentOS Stream 9 virtual machine in a VMware vSphere environmen
       hostnamectl
 ### Screenshots
 
-![Datastore selection in vSphere] (../assets/screenshots/TS5-1/vm-datastore-selection.png)
+![Datastore selection in vSphere](../assets/screenshots/TS5-1/vm-datastore-selection.png)
 
-![VM hardware configuration] (../assets/screenshots/TS5-1/vm-hardware-config.png)
+![VM hardware configuration](../assets/screenshots/TS5-1/vm-hardware-config.png)
 
-![Hostname verification after install] (../assets/screenshots/TS5-1/hostname-verified.png)
+![Hostname verification after install](../assets/screenshots/TS5-1/hostname-verified.png)
+
 
 ## What I Learned
   - End-to-end VM provisioning in an enterprise virtualization environment
