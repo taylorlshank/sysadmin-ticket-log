@@ -38,6 +38,15 @@ Provisioned a Linux web server using a Kickstart file to automate OS installatio
    -Web page accessible from browser
    -Server provisioned without manual intervention
 
+   ### Screenshots
+
+![VM hardware configuration](../assets/screenshots/TS5-21/vm-hardware-config.png)
+
+![OS installation and boot process](../assets/screenshots/TS5-21/os-install-boot.png)
+
+![AssetTiger inventory documentation](../assets/screenshots/TS5-21/assettiger-inventory.png)
+
+
 ## What I Learned
 - Benefits of automated OS provisioning
 - How Kickstart improves consistency and speed in server deployments
