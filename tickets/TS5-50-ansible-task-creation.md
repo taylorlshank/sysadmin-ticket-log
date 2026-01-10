@@ -1,55 +1,66 @@
-# TS5-50 – Create Tasks Using Ansible Playbook
+# TS5-50 — Create Tasks Using Ansible Playbook
 
-## Summary
-Automated common system administration tasks using Ansible, including local user creation, password expiration enforcement, and package installation. This ticket demonstrates task-based automation, idempotent playbook execution, and validation through command-line verification.
+## Overview
+This ticket required creating an Ansible playbook to automate basic system administration tasks on a development application server.
 
-## Environment
-- OS: RHEL / CentOS / Rocky Linux
-- Automation Tool: Ansible
-- Target: Localhost and managed Linux systems
-- Privilege Escalation: sudo / become
+The playbook was designed to:
+- Create a local user
+- Expire the user's password
+- Install a required system utility
+
+---
 
 ## Requirements
-- Create a local user account
-- Force password expiration on first login
-- Install required system packages
-- Ensure tasks are repeatable and idempotent
-- Validate changes after execution
+- Target VM: `dev-app-[initials].procore.prod1`
+- Ansible playbook must:
+  - Create local user `tfleming`
+  - Expire `tfleming`'s password
+  - Install `tmux`
 
-## Implementation
+---
 
-### Playbook Overview
-```yaml
-- name: Create local user, expire password, and install tmux
-  hosts: localhost
-  become: yes
+## Implementation Details
 
-  tasks:
-    - name: Create local user tfleming
-      user:
-        name: tfleming
-        state: present
-        shell: /bin/bash
-        create_home: yes
+An Ansible playbook was created with the following tasks:
+- **User Management:** Created local user `tfleming` with a home directory and default shell
+- **Security Enforcement:** Expired the user's password to require reset on first login
+- **Package Management:** Installed `tmux` using the system package manager
 
-    - name: Expire tfleming password
-      command: chage -d 0 tfleming
+The playbook was executed locally on the target VM after ensuring Ansible was installed and dependencies were resolved.
 
-    - name: Install tmux
-      yum:
-        name: tmux
-        state: present
+---
 
-## Execution
+## Challenges & Resolution
 
-The playbook was executed using:
-ansible-playbook create_tfleming_tmux.yml
+### Issue
+Ansible was not initially installed on the `dev-app` server, and package installation failed due to repository conflicts.
+
+### Resolution
+- Disabled conflicting Red Hat repositories
+- Installed required Ansible dependencies
+- Re-ran the playbook successfully after repository correction
+
+---
 
 ## Validation
+- User `tfleming` successfully created
+- Password expiration confirmed
+- `tmux` package installed
+- Playbook completed with no failures
 
-- Verified user account exists
-- Confirmed password expiration is enforced
-- Confirmed tmux package is installed
-- Play recap shows successful execution with no failures
+---
 
+## Screenshots
 
+![Ansible Playbook Definition](../assets/screenshots/TS5-50/playbook-definition.png)
+
+![Ansible Installation](../assets/screenshots/TS5-50/ansible-installation.png)
+
+![Successful Playbook Execution](../assets/screenshots/TS5-50/playbook-execution-success.png)
+
+---
+
+## What I Learned
+- Writing idempotent Ansible tasks for user and package management
+- Troubleshooting Ansible installation issues related to repository configuration
+- Validating automation success through play recap output
