@@ -38,62 +38,58 @@ This ticket documents the deployment of a LAMP (Linux, Apache, MariaDB, PHP) sta
 ## Screenshots
 
 ### 1. LAMP Services Installed and Running
-![LAMP services installed](../TS5-78/01-lamp-services-installed.png)
-
-![LAMP services installed – continued](../TS5-78/01-lamp-services-installed-02.png)
-
-![LAMP services installed – continued](../TS5-78/01-lamp-services-installed-03.png)
+![LAMP services installed](./assets/TS5-78/01-lamp-services-installed.png)
+![LAMP services installed – continued](./assets/TS5-78/01-lamp-services-installed-02.png)
+![LAMP services installed – continued](./assets/TS5-78/01-lamp-services-installed-03.png)
 
 ---
 
 ### 2. CRM Application Files Deployed
-![CRM files deployed](../TS5-78/02-crm-files-deployed.png)
+![CRM files deployed](./assets/TS5-78/02-crm-files-deployed.png)
 
 ---
 
 ### 3. CRM Database Created
-![CRM database created](../TS5-78/03-crm-database-created.png)
+![CRM database created](./assets/TS5-78/03-crm-database-created.png)
 
 ---
 
 ### 4. Database Connection Configured
-![DB connection configured](../TS5-78/04-dbconnection-configured-01.png)
-
-![DB connection configured – continued](../TS5-78/04-dbconnection-configured-02.png)
+![DB connection configured](./assets/TS5-78/04-dbconnection-configured-01.png)
+![DB connection configured – continued](./assets/TS5-78/04-dbconnection-configured-02.png)
 
 ---
 
 ### 5. PHP Info Page Verified
-![PHP info page](../TS5-78/05-php-info-page-01.png)
-
-![PHP info page – continued](../TS5-78/05-php-info-page-02.png)
+![PHP info page](./assets/TS5-78/05-php-info-page-01.png)
+![PHP info page – continued](./assets/TS5-78/05-php-info-page-02.png)
 
 ---
 
-### 6. phpMyAdmin Access Confirmed
-![phpMyAdmin access](../TS5-78/06-phpmyadmin-access.png)
+### 6. phpMyAdmin Access Verified
+![phpMyAdmin access](./assets/TS5-78/06-phpmyadmin-access.png)
 
 ---
 
 ### 7. CRM Database Imported
-![CRM database imported](../TS5-78/07-crm-database-imported-01.png)
-
-![CRM database imported – continued](../TS5-78/07-crm-database-imported-02.png)
-
----
-
-### 8. CRM Admin Login Page
-![Admin login page](../TS5-78/08-admin-login-page.png)
+![CRM database imported](./assets/TS5-78/07-crm-database-imported-01.png)
+![CRM database imported – continued](./assets/TS5-78/07-crm-database-imported-02.png)
 
 ---
 
-### 9. CRM Admin Dashboard
-![Admin dashboard](../TS5-78/09-admin-dashboard.png)
+### 8. Admin Login Page Verified
+![Admin login page](./assets/TS5-78/08-admin-login-page.png)
 
 ---
 
-### 10. CRM User Login Successful
-![User login successful](../TS5-78/10-user-login-success.png)
+### 9. Admin Dashboard Accessed
+![Admin dashboard](./assets/TS5-78/09-admin-dashboard.png)
+
+---
+
+### 10. User Login Successful
+![User login success](./assets/TS5-78/10-user-login-success.png)
+
 
 ---
 
