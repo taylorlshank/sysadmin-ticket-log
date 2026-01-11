@@ -39,7 +39,9 @@ This ticket documents the deployment of a LAMP (Linux, Apache, MariaDB, PHP) sta
 
 ### 1. LAMP Services Installed and Running
 ![LAMP services installed](../TS5-78/01-lamp-services-installed.png)
+
 ![LAMP services installed – continued](../TS5-78/01-lamp-services-installed-02.png)
+
 ![LAMP services installed – continued](../TS5-78/01-lamp-services-installed-03.png)
 
 ---
@@ -56,12 +58,14 @@ This ticket documents the deployment of a LAMP (Linux, Apache, MariaDB, PHP) sta
 
 ### 4. Database Connection Configured
 ![DB connection configured](../TS5-78/04-dbconnection-configured-01.png)
+
 ![DB connection configured – continued](../TS5-78/04-dbconnection-configured-02.png)
 
 ---
 
 ### 5. PHP Info Page Verified
 ![PHP info page](../TS5-78/05-php-info-page-01.png)
+
 ![PHP info page – continued](../TS5-78/05-php-info-page-02.png)
 
 ---
@@ -73,6 +77,7 @@ This ticket documents the deployment of a LAMP (Linux, Apache, MariaDB, PHP) sta
 
 ### 7. CRM Database Imported
 ![CRM database imported](../TS5-78/07-crm-database-imported-01.png)
+
 ![CRM database imported – continued](../TS5-78/07-crm-database-imported-02.png)
 
 ---
