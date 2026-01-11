@@ -24,7 +24,7 @@ A curated portfolio of real-world Linux system administration and infrastructure
 - [TS5-51 – Port Hardening via Ansible](tickets/TS5-51-port-hardening-ansible.md)
 
 ### 🌐 Linux Services & Infrastructure
-- [LAMP Stack Deployment (Apache, MariaDB, Firewall)](tickets/TS5-78-lamp-stack-deployment.md)
+- [LAMP Stack Deployment (Apache, MariaDB, Firewall)](tickets/TS5-78-lamp-stack-application.md)
 
 ### 🔐 Security & Reliability
 - [SSH Hardening on Linux Systems](tickets/TS5-80-ssh-hardening.md)
