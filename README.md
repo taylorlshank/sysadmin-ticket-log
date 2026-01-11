@@ -27,7 +27,7 @@ A curated portfolio of real-world Linux system administration and infrastructure
 - [LAMP Stack Deployment (Apache, MariaDB, Firewall)](tickets/TS5-78-lamp-stack-application.md)
 
 ### 🔐 Security & Reliability
-- [SSH Hardening on Linux Systems](tickets/TS5-80-ssh-hardening.md)
+- [SSH Hardening on Linux Systems](tickets/TS5-24-disable-ssh-root-access.md)
 - [Linux Security Audit](tickets/TS5-80-security-audit-lynis.md)
 
 ➡️ Detailed ticket write-ups are available in the [`/tickets`](tickets/) folder.
