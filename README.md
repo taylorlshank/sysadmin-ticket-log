@@ -28,7 +28,7 @@ A curated portfolio of real-world Linux system administration and infrastructure
 
 ### 🔐 Security & Reliability
 - [SSH Hardening on Linux Systems](tickets/TS5-80-ssh-hardening.md)
-- [Linux Security Audit](tickets/TS5-80-linux-security-audit.md)
+- [Linux Security Audit](tickets/TS5-80-security-audit-lynis.md)
 
 ➡️ Detailed ticket write-ups are available in the [`/tickets`](tickets/) folder.
 
