@@ -24,11 +24,11 @@ A curated portfolio of real-world Linux system administration and infrastructure
 - [TS5-51 – Port Hardening via Ansible](tickets/TS5-51-port-hardening-ansible.md)
 
 ### 🌐 Linux Services & Infrastructure
-- [LAMP Stack Deployment (Apache, MariaDB, Firewall)](tickets/TS5-lamp-stack-deployment.md)
+- [LAMP Stack Deployment (Apache, MariaDB, Firewall)](tickets/TS5-78-lamp-stack-deployment.md)
 
 ### 🔐 Security & Reliability
-- [SSH Hardening on Linux Systems](tickets/TS5-ssh-hardening.md)
-- [Linux Security Audit](tickets/TS5-linux-security-audit.md)
+- [SSH Hardening on Linux Systems](tickets/TS5-80-ssh-hardening.md)
+- [Linux Security Audit](tickets/TS5-80-linux-security-audit.md)
 
 ➡️ Detailed ticket write-ups are available in the [`/tickets`](tickets/) folder.
 
