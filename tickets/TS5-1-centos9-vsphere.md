@@ -50,7 +50,7 @@ Provisioned a new CentOS Stream 9 virtual machine in a VMware vSphere environmen
 
 ![VM hardware configuration](../assets/screenshots/TS5-1/vm-hardware-config.png)
 
-![Hostname verification after install](../assets/screenshots/TS5-1/hostname-verified.png)
+![Hostname verification after install](../assets/screenshots/TS5-1/TS1%20hostname-verified.png)
 
 
 ## What I Learned
