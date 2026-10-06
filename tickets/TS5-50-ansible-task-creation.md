@@ -52,11 +52,11 @@ Ansible was not initially installed on the `dev-app` server, and package install
 
 ## Screenshots
 
-![Ansible Playbook Definition](../assets/screenshots/TS5-50/playbook-definition.png)
+![Ansible Playbook Definition](../assets/screenshots/TS5-50/TS-50playbook-definition.png)
 
-![Ansible Installation](../assets/screenshots/TS5-50/ansible-installation.png)
+![Ansible Installation](../assets/screenshots/TS5-50/TS-50ansible-installation.png)
 
-![Successful Playbook Execution](../assets/screenshots/TS5-50/playbook-execution-success.png)
+![Successful Playbook Execution](../assets/screenshots/TS5-50/TS-50playbook-execution-success.png)
 
 ---
 
