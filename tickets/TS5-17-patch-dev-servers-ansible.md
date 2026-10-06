@@ -67,19 +67,19 @@ During the initial execution, the playbook failed due to RPM dependency conflict
 ## Screenshots
 
 ### Ansible Playbook for Automated Dev Server Patching
-![Ansible playbook file](../assets/screenshots/TS5-17/ansible-playbook-file.png)
+![Ansible playbook file](../assets/screenshots/TS5-17/TS-17ansible-playbook-file.png)
 
 ### Initial Patch Failure (Dependency Conflict)
-![Initial patch failure](../assets/screenshots/TS5-17/initial-patch-failure.png)
+![Initial patch failure](../assets/screenshots/TS5-17/TS-17initial-patch-failure.png)
 
 ### Inventory Misconfiguration Causing Hosts to Be Skipped
-![Host pattern mismatch](../assets/screenshots/TS5-17/host-pattern-mismatch.png)
+![Host pattern mismatch](../assets/screenshots/TS5-17/TS-17host-pattern-mismatch.png)
 
 ### Successful Package Updates After Dependency Resolution
-![Updated packages](../assets/screenshots/TS5-17/packages-updated.png)
+![Updated packages](../assets/screenshots/TS5-17/TS-17packages-updated.png)
 
 ### Successful Ansible Playbook Execution
-![Successful play recap](../assets/screenshots/TS5-17/successful-play-recap.png)
+![Successful play recap](../assets/screenshots/TS5-17/TS-17successful-play-recap.png)
 
 
 ---
