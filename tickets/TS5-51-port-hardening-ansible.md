@@ -27,18 +27,30 @@ This ticket documents using an Ansible playbook to harden a Linux system by clos
 ---
 
 ## Screenshots
-- **Ansible Inventory Configuration** – Target host definition used for the playbook
-  ![Ansible Inventory Configuration](../assets/screenshots/TS5-51/ansible-inventory-configuration.png)
-- **Firewall Hardening Playbook** – Ansible playbook used to close ports 80 and 443
-![Firewall Hardening Playbook](../assets/screenshots/TS5-51/firewall-hardening-playbook.png)
-- **Initial Module Resolution Error** – Error encountered when `ansible.posix.firewalld` module was not resolved
-![Initial Module Resolution Error](../assets/screenshots/TS5-51/initial-module-resolution-error.png) 
-- **Privilege Escalation Error** – Failure caused by missing sudo credentials
-![Privilege Escalation Error](../assets/screenshots/TS5-51/privilege-escalation-error.png)
-- **Successful Playbook Execution** – Playbook run with correct privilege escalation flags
-![Successful Playbook Execution](../assets/screenshots/TS5-51/successful-playbook-execution.png)
-- **Firewall Rule Verification** – Output confirming ports 80 and 443 are closed
-![Firewall Rule Verification](../assets/screenshots/TS5-51/firewall-rule-verification.png)
+
+### Ansible Inventory Configuration
+Target host definition used for the playbook.
+![Ansible Inventory Configuration](../assets/screenshots/TS5-51/TS-51ansible-inventory-configuration.png)
+
+### Firewall Hardening Playbook
+Ansible playbook used to close ports 80 and 443.
+![Firewall Hardening Playbook](../assets/screenshots/TS5-51/TS-51firewall-hardening-playbook.png)
+
+### Initial Module Resolution Error
+Error encountered when the `ansible.posix.firewalld` module was not resolved.
+![Initial Module Resolution Error](../assets/screenshots/TS5-51/TS-51initial-module-resolution-error.png)
+
+### Privilege Escalation Error
+Failure caused by missing sudo credentials.
+![Privilege Escalation Error](../assets/screenshots/TS5-51/TS-51privilege-escalation-error.png)
+
+### Successful Playbook Execution
+Playbook run with correct privilege escalation flags.
+![Successful Playbook Execution](../assets/screenshots/TS5-51/TS-51successful-playbook-execution.png)
+
+### Firewall Rule Verification
+Output used to verify the firewall changes.
+![Firewall Rule Verification](../assets/screenshots/TS5-51/TS-51firewall-rule-verification.png)
 
 
 
