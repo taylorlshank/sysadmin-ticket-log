@@ -30,32 +30,32 @@ As part of the security audit requirements, SSH root login was disabled across a
 ## 📸 Screenshots
 
 ### 1. Disable Root Login – dev-app
-![Disable root login - dev-app](../assets/screenshots/TS5-24/01-dev-app-sshd-config.png)
+![Disable root login - dev-app](../assets/screenshots/TS5-24/TS-24-01-dev-app-sshd-config.png)
 
 ---
 
 ### 2. SSHD Service Status – dev-app
-![SSHD status - dev-app](../assets/screenshots/TS5-24/02-dev-app-sshd-status.png)
+![SSHD status - dev-app](../assets/screenshots/TS5-24/TS-24-02-dev-app-sshd-status.png)
 
 ---
 
 ### 3. Disable Root Login – dev-performance
-![Disable root login - dev-performance](../assets/screenshots/TS5-24/03-dev-performance-sshd-config.png)
+![Disable root login - dev-performance](../assets/screenshots/TS5-24/TS-24-03-dev-performance-sshd-config.png)
 
 ---
 
 ### 4. SSHD Service Status – dev-performance
-![SSHD status - dev-performance](../assets/screenshots/TS5-24/04-dev-performance-sshd-status.png)
+![SSHD status - dev-performance](../assets/screenshots/TS5-24/TS-24-04-dev-performance-sshd-status.png)
 
 ---
 
 ### 5. Disable Root Login – stage-web
-![Disable root login - stage-web](../assets/screenshots/TS5-24/05-stage-web-sshd-config.png)
+![Disable root login - stage-web](../assets/screenshots/TS5-24/TS-24-05-stage-web-sshd-config.png)
 
 ---
 
 ### 6. SSHD Service Status – stage-web
-![SSHD status - stage-web](../assets/screenshots/TS5-24/06-stage-web-sshd-status.png)
+![SSHD status - stage-web](../assets/screenshots/TS5-24/TS-24-06-stage-web-sshd-status.png)
 
 ---
 
