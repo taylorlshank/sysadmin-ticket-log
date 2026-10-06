@@ -42,9 +42,9 @@ Provisioned a Linux web server using a Kickstart file to automate OS installatio
 
 ![VM hardware configuration](../assets/screenshots/TS5-21/vm-hardware-config.png)
 
-![OS installation and boot process](../assets/screenshots/TS5-21/os-install-boot.png)
+![OS installation and boot process](../assets/screenshots/TS5-21/TS-21os-install-boot.png)
 
-![AssetTiger inventory documentation](../assets/screenshots/TS5-21/assettiger-inventory.png)
+![AssetTiger inventory documentation](../assets/screenshots/TS5-21/TS-21assettiger-inventory.png)
 
 
 ## What I Learned
