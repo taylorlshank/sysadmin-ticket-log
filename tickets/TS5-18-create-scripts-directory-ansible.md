@@ -80,16 +80,16 @@ ansible-playbook -i /etc/ansible/hosts create_scripts_dir.yml -k -K
 ## Screenshots
 
 ### Ansible Playbook for Directory Creation
-![Ansible playbook](../assets/screenshots/TS5-18/ansible-playbook-file.png)
+![Ansible playbook](../assets/screenshots/TS5-18/TS-18ansible-playbook-file.png)
 
 ### Initial Playbook Run Without Inventory
-![Playbook without inventory](../assets/screenshots/TS5-18/missing-inventory-run.png)
+![Playbook without inventory](../assets/screenshots/TS5-18/TS-18missing-inventory-run.png)
 
 ### Successful Playbook Execution on Multiple Hosts
-![Successful play recap](../assets/screenshots/TS5-18/successful-play-recap.png)
+![Successful play recap](../assets/screenshots/TS5-18/TS-18successful-play-recap.png)
 
 ### Directory Created with Correct Ownership and Permissions
-![Directory permissions verified](../assets/screenshots/TS5-18/directory-permissions.png)
+![Directory permissions verified](../assets/screenshots/TS5-18/TS-18directory-permissions.png)
 
 ---
 
