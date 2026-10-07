@@ -40,17 +40,17 @@ This task involved performing a security audit on a Linux system using **Lynis**
 ## Screenshots
 
 ### 1. Lynis Installed on stage-web
-![Lynis installed](../assets/screenshots/TS5-80/01-lynis-installed.png)
+![Lynis installed](../assets/screenshots/TS5-80/TS-80-01-lynis-installed.png)
 
 ---
 
 ### 2. Lynis Audit Executed
-![Lynis audit executed](../assets/screenshots/TS5-80/02-lynis-audit-executed.png)
+![Lynis audit executed](../assets/screenshots/TS5-80/TS-80-02-lynis-audit-executed.png)
 
 ---
 
 ### 3. Lynis Audit Output Redirected to File
-![Lynis audit output redirected](../assets/screenshots/TS5-80/03-lynis-audit-output-file.png)
+![Lynis audit output redirected](../assets/screenshots/TS5-80/TS-80-03-lynis-audit-output-file.png)
 
 ---
 
